@@ -10,23 +10,27 @@
 
 <body>
     <?php
-    include("menu.php");
+    include_once("menu.php");
     ?>
     <div class="content">
-        <div class="content">
-        <h1>Biblioteca Digital Municipal</h1>
-        <p>A Biblioteca Digital Municipal tem como missão promover o acesso ao conhecimento, à cultura e à educação por
-            meio de um acervo digital acessível a toda a comunidade.</p>
-        <br>
-        <p>Nosso sitema permite consultar obras literárias, acessar livros digitais e incentivar a leitura através da
-            tecnologia
-            Este ambiente foi desenvolvido para facilitar o gereniamento do acervo bibliográfico e aproximar leitores do
-            universo literário.
-        </p>
+        <div class="card">
+            <h1>Biblioteca Digital Municipal</h1>
+            <p>A biblioteca Digital Municipal tem como missão promover o acesso ao
+                conhecimento, à cultura e à educação por meio de um
+                acervo digital acessível a toda a comunidade.
+            </p>
+            <br>
+            <p>Nosso sitema permite consultar obras literárias, acessar
+                livros digitais e incentivar a leitura através de tecnologia.
+                Este ambiente foi densenvolvido para facilitar o
+                gerenciamento do acervo bibliográfico e aproximar leitores do
+                universo literário.
+            </p>
+        </div>
+        <img src="https://agenciadenoticias.uniceub.br/wp-content/uploads/2018/01/livraria-lello2-721x1024.jpg"
+            alt="Foto de uma biblioteca" style="width:100%; border-radius:12px">
+
     </div>
-    </div>
-    <img src="https://www.cultuga.com.br/wp-content/uploads/2017/02/real-gabinete-portugues-rio-de-janeiro-Edu-Mendes-biblioteca-capa.jpg"
-        alt="Biblioteca do Rio de Janeiro" style="width: 100%;">
 
 </body>
 

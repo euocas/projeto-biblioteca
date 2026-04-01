@@ -1,0 +1,114 @@
+ 
+body{
+    display: flex;
+    background-color: #f4f6f9;
+    color: #333;
+}
+ 
+.sidebar{
+    width: 240px;
+    height: 110vh;
+    background-color: #0f172a;
+    color: white;
+    padding: 25px;
+    position: fixed;
+}
+ 
+.sidebar h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+ 
+.sidebar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius:  8px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+ 
+.sidebar a:hover{
+    background-color: #1e293b;
+}
+.content{
+    margin-left: 260px;
+    padding: 40px;
+    width: 100%;
+}
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px rgb(0, 0, 0,0.08);
+    margin-bottom: 30px;
+}
+
+.card h1,
+.card h2{
+    margin-left: 15px;
+    padding: 40px;
+}
+.card p{
+    margin-left: 15px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.btn{
+    display: inline-block;
+    margin: 10px;
+    background-color: #0047ec;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #0031a9;
+}
+.card form{
+    max-height: 600px;
+}
+label{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+}
+input, select{
+    width: 100%;
+    padding: 14px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+input[type="file"]{
+    padding: 12px;
+    font-size: 16px;
+    background: #ffffff;
+
+}
+button{
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    background: #0047ec;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #0031a9;
+}
+
+.card form{
+    max-width: 600px;
+}

@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 9ca5693 (att repo)
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Biblioteca</title>
     <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="main.css">
 </head>
  
+=======
+</head>
+
+>>>>>>> 9ca5693 (att repo)
 <body>
     <?php
     include_once("menu.php");
@@ -28,6 +37,7 @@
                 universo literário.
             </p>
         </div>
+<<<<<<< HEAD
         <img src="https://png.pngtree.com/thumb_back/fw800/background/20260323/pngtree-abandoned-library-interior-with-high-ceiling-and-bookshelves-image_21218244.webp"
         alt="Biblioteca do Rio de Janeiro" style="width: 100%;">
  
@@ -35,4 +45,13 @@
  
 </body>
  
+=======
+        <img src="https://agenciadenoticias.uniceub.br/wp-content/uploads/2018/01/livraria-lello2-721x1024.jpg"
+            alt="Foto de uma biblioteca" style="width:100%; border-radius:12px">
+
+    </div>
+
+</body>
+
+>>>>>>> 9ca5693 (att repo)
 </html>

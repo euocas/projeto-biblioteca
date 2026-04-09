@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 cadastrar.php
  
+=======
+>>>>>>> 9ca5693 (att repo)
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,9 +18,27 @@ cadastrar.php
     <div class="content">
         <div class="card">
             <h2>Cadastro de Novo Livro</h2>
+<<<<<<< HEAD
             <p> Adicione umanova obra ao acervo digital da biblioteca. Preencha as informações abaixo e envie a capa e o arquivo digital do livro em formato pdf.</p>
             <br>
             <form action="salvar_livro.php" method="post">
+=======
+<<<<<<< HEAD
+            <p> Adicione uma nova obra ao acervo digital da biblioteca. Preencha as informações abaixo e envie a capa e o arquivo digital do livro em formato pdf.</p>
+            <br>
+            <form action="salvar_livro.php" method="post" enctype ="multipart/form-data">
+=======
+<<<<<<< HEAD
+            <p> Adicione umanova obra ao acervo digital da biblioteca. Preencha as informações abaixo e envie a capa e o arquivo digital do livro em formato pdf.</p>
+            <br>
+            <form action="salvar_livro.php" method="post">
+=======
+            <p> Adicione uma nova obra ao acervo digital da biblioteca. Preencha as informações abaixo e envie a capa e o arquivo digital do livro em formato pdf.</p>
+            <br>
+            <form action="salvar_livro.php" method="post" enctype ="multipart/form-data">
+>>>>>>> e6860b3 (atualização da biblioteca)
+>>>>>>> 6a253c7 (atualização biblioteca)
+>>>>>>> 9ca5693 (att repo)
                 <label> Título do Livro</label>
                 <input type="text" name="titulo" required>
                 <label> Autor</label>
@@ -55,5 +76,18 @@ cadastrar.php
     </div>
    
 </body>
+<<<<<<< HEAD
 </html>
  
+=======
+<<<<<<< HEAD
+</html>
+=======
+<<<<<<< HEAD
+</html>
+ 
+=======
+</html>
+>>>>>>> e6860b3 (atualização da biblioteca)
+>>>>>>> 6a253c7 (atualização biblioteca)
+>>>>>>> 9ca5693 (att repo)
